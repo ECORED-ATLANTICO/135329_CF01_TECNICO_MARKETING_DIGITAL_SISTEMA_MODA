@@ -21,7 +21,6 @@
           h5 Figura 1.
           span Variables conocidas como las 4P
         img.mb-2(data-aos="fade-down-right", src="@/assets/curso/tema4/2.png", alt="En la figura se describen las variables conocidas como las 4P, donde se detalla: producto, precio, distribución y comunicación.")
-        figcaption Nota. SENA, (2026).
           
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-primario-p20")

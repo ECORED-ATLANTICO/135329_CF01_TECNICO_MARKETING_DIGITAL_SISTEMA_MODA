@@ -136,7 +136,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/124108_CF01_DU.pdf',
+        download: 'downloads/124108_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -180,33 +180,33 @@ export default {
   referencias: [
     {
       referencia:
-        'American Marketing Association. (2020, 3 de diciembre). <em>Definitions of marketing</em>.',
+        'American Marketing Association. (2020, 3 de diciembre). Definitions of marketing.',
       link:
         'https://www.ama.org/the-definition-of-marketing-what-is-marketing/',
     },
     {
       referencia:
-        'Baena, V., y Moreno, F. (2010). <em>Instrumentos de marketing: Decisiones sobre producto, precio, distribución, comunicación y marketing directo</em>. Editorial UOC.',
+        'Baena, V., y Moreno, F. (2010). Instrumentos de marketing: Decisiones sobre producto, precio, distribución, comunicación y marketing directo. Editorial UOC.',
       link: '',
     },
     {
       referencia:
-        'Congreso de Colombia. (1999, 18 de agosto). Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones. <em>Diario Oficial</em> No. 43.673.',
+        'Congreso de Colombia. (1999, 18 de agosto). Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones. Diario Oficial No. 43.673.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1662013',
     },
     {
       referencia:
-        'Congreso de Colombia. (2011, 12 de octubre). Ley 1480 de 2011. Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones. <em>Diario Oficial</em>.',
+        'Congreso de Colombia. (2011, 12 de octubre). Ley 1480 de 2011. Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones. Diario Oficial.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1681955',
     },
     {
       referencia:
-        'Congreso de Colombia. (2012, 17 de octubre). Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. <em>Diario Oficial</em>.',
+        'Congreso de Colombia. (2012, 17 de octubre). Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Diario Oficial.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1684507',
     },
     {
       referencia:
-        'Consejo Nacional de Política Económica y Social. (2009, 9 de noviembre). <em>Documento CONPES 3620: Lineamientos de política para el desarrollo e impulso del comercio electrónico en Colombia</em>. Departamento Nacional de Planeación.',
+        'Consejo Nacional de Política Económica y Social. (2009, 9 de noviembre). Documento CONPES 3620: Lineamientos de política para el desarrollo e impulso del comercio electrónico en Colombia. Departamento Nacional de Planeación.',
       link:
         'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3620.pdf',
     },
@@ -218,77 +218,77 @@ export default {
     },
     {
       referencia:
-        'Iniestra, L. (2015). <em>Implementación de mercadotecnia digital a una empresa de chocolate gourmet</em> [Tesis de maestría, Instituto Politécnico Nacional]. Repositorio Nacional.',
+        'Iniestra, L. (2015). Implementación de mercadotecnia digital a una empresa de chocolate gourmet [Tesis de maestría, Instituto Politécnico Nacional]. Repositorio Nacional.',
       link: '',
     },
     {
       referencia:
-        'Kotler, P., y Armstrong, G. (2013). <em>Fundamentos de marketing</em> (11.ª ed.). Pearson Educación.',
+        'Kotler, P., y Armstrong, G. (2013). Fundamentos de marketing (11.ª ed.). Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'Kotler, P., y Keller, K. L. (2013). <em>Dirección de marketing</em>. Pearson Educación.',
+        'Kotler, P., y Keller, K. L. (2013). Dirección de marketing. Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'Lamb, C. W., Hair, J. F., y McDaniel, C. (2011). <em>Marketing</em>. Cengage Learning.',
+        'Lamb, C. W., Hair, J. F., y McDaniel, C. (2011). Marketing. Cengage Learning.',
       link: '',
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2015, 26 de mayo). Decreto 1074 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. <em>Diario Oficial</em>.',
+        'Ministerio de Comercio, Industria y Turismo. (2015, 26 de mayo). Decreto 1074 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. Diario Oficial.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30019935',
     },
     {
       referencia:
-        'Olamendi, G. (2021). <em>Diccionario de marketing</em>. EIG Business School.',
+        'Olamendi, G. (2021). Diccionario de marketing. EIG Business School.',
       link: '',
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (2012, 22 de noviembre). Decreto 2364 de 2012. Por medio del cual se reglamenta el artículo 7 de la Ley 527 de 1999 sobre la firma electrónica y se dictan otras disposiciones. <em>Diario Oficial</em>.',
+        'Presidencia de la República de Colombia. (2012, 22 de noviembre). Decreto 2364 de 2012. Por medio del cual se reglamenta el artículo 7 de la Ley 527 de 1999 sobre la firma electrónica y se dictan otras disposiciones. Diario Oficial.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1442265',
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (2014, 19 de febrero). Decreto 333 de 2014. Por el cual se reglamenta parcialmente la Ley 527 de 1999 en lo relacionado con las entidades de certificación, los certificados y las firmas digitales. <em>Diario Oficial</em>.',
+        'Presidencia de la República de Colombia. (2014, 19 de febrero). Decreto 333 de 2014. Por el cual se reglamenta parcialmente la Ley 527 de 1999 en lo relacionado con las entidades de certificación, los certificados y las firmas digitales. Diario Oficial.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1848847',
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (2020, 5 de marzo). Decreto 358 de 2020. Por el cual se reglamentan disposiciones en materia tributaria relacionadas con los sistemas de facturación. <em>Diario Oficial</em>.',
+        'Presidencia de la República de Colombia. (2020, 5 de marzo). Decreto 358 de 2020. Por el cual se reglamentan disposiciones en materia tributaria relacionadas con los sistemas de facturación. Diario Oficial.',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30038903',
     },
     {
       referencia:
-        'Rincón, E. (2017). <em>Derecho del comercio electrónico y de internet</em>. Legis.',
+        'Rincón, E. (2017). Derecho del comercio electrónico y de internet. Legis.',
       link: '',
     },
     {
       referencia:
-        'Rosenstiehl, J. L. (2016). <em>Tópicos generales de marketing estratégico</em>. Notas de Clase No. 39.',
+        'Rosenstiehl, J. L. (2016). Tópicos generales de marketing estratégico. Notas de Clase No. 39.',
       link: '',
     },
     {
       referencia:
-        'Sainz, J. M. (2015). <em>El plan de marketing en la práctica</em>. ESIC Editorial.',
+        'Sainz, J. M. (2015). El plan de marketing en la práctica. ESIC Editorial.',
       link: '',
     },
     {
       referencia:
-        'Silva, R. (2009). Beneficios del comercio electrónico. <em>Perspectivas</em>, (24), 151–164.',
+        'Silva, R. (2009). Beneficios del comercio electrónico. Perspectivas, (24), 151–164.',
       link: 'https://www.redalyc.org/articulo.oa?id=425942160008',
     },
     {
       referencia:
-        'Stanton, W. J., Etzel, M. J., y Walker, B. J. (2007). <em>Fundamentos de marketing</em> (13.ª ed.). McGraw-Hill Interamericana.',
+        'Stanton, W. J., Etzel, M. J., y Walker, B. J. (2007). Fundamentos de marketing (13.ª ed.). McGraw-Hill Interamericana.',
       link: '',
     },
     {
       referencia:
-        'Xie, Y. M. S. (2021). <em>Marketing digital: Navegando en aguas digitales, sumérgete conmigo</em>. Ediciones de la U.',
+        'Xie, Y. M. S. (2021). Marketing digital: Navegando en aguas digitales, sumérgete conmigo. Ediciones de la U.',
       link: '',
     },
   ],
@@ -299,7 +299,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -408,12 +408,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -423,7 +423,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -431,7 +431,7 @@ export default {
   ],
   creditosAdicionales: {
     imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.magnific.com/es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },

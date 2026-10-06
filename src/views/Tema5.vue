@@ -30,7 +30,6 @@
           h5 Figura 2.
           span Estructura del plan de mercadeo
         img.mb-2(data-aos="fade-down-right", src="@/assets/curso/tema5/4.svg", alt="La figura describe la estructura del plan de mercadeo mediante una ecuación conceptual. El esquema muestra que la combinación de un plan y el mercadeo da como resultado un documento estratégico.")
-        figcaption Nota. SENA, (2026).
           
       .col-lg-6
         h5.mb-4 ¿Cómo estructurar un plan de mercadeo?
