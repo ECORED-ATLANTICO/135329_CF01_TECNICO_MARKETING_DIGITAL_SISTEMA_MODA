@@ -2,89 +2,88 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
+  
       #Actividad                
-      <ActividadController :cuestionario="cuestionario"/>
+        <Actividad :cuestionario="cuestionario"/>
   
   </template>
 
 <script>
-import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
-
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
   components: {
-    ActividadController,
+    Actividad,
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Conceptos de mercadeo',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la comprensión del aprendiz sobre los fundamentos del mercadeo mediante la resolución de preguntas de selección múltiple, a partir de la identificación de conceptos clave desarrollados en el componente formativo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué propósito cumple el mercadeo en las organizaciones modernas?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto: 'Crear valor mediante relaciones con clientes y mercados.',
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+                'Eliminar procesos comerciales dentro de las organizaciones actuales.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Sustituir completamente las actividades administrativas empresariales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Reducir la participación de consumidores en el mercado.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué elemento caracteriza la evolución del concepto de mercadeo?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'La eliminación de las necesidades del consumidor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'La sustitución de procesos de intercambio comercial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'La ampliación del enfoque hacia creación de valor.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'La desaparición de las estrategias empresariales modernas.',
               esCorrecta: false,
             },
           ],
@@ -93,29 +92,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Según AMA, qué genera el mercadeo para los consumidores?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Procesos administrativos exclusivamente financieros.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Restricciones comerciales entre organizaciones participantes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Disminución permanente del intercambio de productos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+              texto: 'Ofertas con valor para consumidores y clientes.',
               esCorrecta: true,
             },
           ],
@@ -125,28 +124,32 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué aspecto fortaleció la evolución del marketing contemporáneo?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
+              texto:
+                'Comprender necesidades y satisfacer expectativas del mercado.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Reducir la comunicación entre organizaciones y consumidores.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto:
+                'Eliminar procesos de análisis del comportamiento comercial.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Sustituir estrategias de posicionamiento por acciones improvisadas.',
               esCorrecta: false,
             },
           ],
@@ -155,30 +158,32 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué beneficio aporta comprender diferentes definiciones de mercadeo?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+                'Limitar el desarrollo de estrategias comerciales empresariales.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Entender su evolución e importancia organizacional actual.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Eliminar la relación entre empresa y consumidor.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Sustituir completamente la gestión del marketing estratégico.',
               esCorrecta: false,
             },
           ],
@@ -188,28 +193,31 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué representa una necesidad dentro del proceso de mercadeo?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Un producto disponible para comercialización inmediata.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto:
+                'Una estrategia utilizada para incrementar las ventas empresariales.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Una carencia que motiva deseos y comportamientos de consumo.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'Un mechanism exclusivo para controlar precios del mercado.',
               esCorrecta: false,
             },
           ],
@@ -219,29 +227,32 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál finalidad tienen los intercambios dentro del mercadeo moderno?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto:
+                'Reducir las relaciones entre empresas y consumidores finales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Eliminar la generación de valor para las organizaciones.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'Sustituir procesos comerciales mediante acciones administrativas internas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
+              texto:
+                'Satisfacer necesidades mediante entrega de valor entre las partes.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -250,28 +261,32 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué orienta las decisiones estratégicas del mercadeo contemporáneo?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'El conocimiento de clientes, mercados y necesidades reales.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La eliminación del análisis competitivo empresarial permanente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'La reducción de procesos relacionados con investigación comercial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La sustitución de objetivos organizacionales por decisiones intuitivas.',
               esCorrecta: false,
             },
           ],
@@ -281,19 +296,33 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué aporta el mercadeo al crecimiento sostenible de las organizaciones?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Eliminar procesos estratégicos relacionados con los consumidores.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Favorecer competitividad mediante creación y entrega de valor.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir la planeación comercial por actividades improvisadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reducir la innovación aplicada al desarrollo empresarial actual.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +331,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué aspecto diferencia el mercadeo de la simple actividad comercial?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'La eliminación permanente de relaciones con los consumidores.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'La reducción del intercambio entre organizaciones y mercados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La orientación estratégica hacia satisfacción y creación de valor.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'La sustitución del análisis por decisiones exclusivamente operativas.',
               esCorrecta: false,
             },
           ],
@@ -323,19 +366,33 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué caracteriza un mercado desde la perspectiva del mercadeo?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Un grupo de organizaciones dedicadas exclusivamente a producir bienes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Personas u organizaciones con necesidades y capacidad de intercambio.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Un conjunto de actividades administrativas sin relación comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Espacios físicos destinados únicamente para la venta de productos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -344,18 +401,32 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué importancia tiene identificar correctamente el mercado objetivo empresarial?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Permite orientar estrategias hacia consumidores con necesidades específicas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Elimina procesos de investigación desarrollados por las organizaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reduce la capacidad competitiva frente a otros mercados existentes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituye completamente la planeación estratégica del mercadeo moderno.',
               esCorrecta: false,
             },
           ],
@@ -365,18 +436,32 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué finalidad cumple la segmentación dentro del proceso comercial?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Eliminar diferencias existentes entre consumidores del mercado objetivo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Agrupar consumidores con características y necesidades similares.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir estrategias comerciales mediante acciones administrativas internas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reducir posibilidades de posicionamiento empresarial competitivo actual.',
               esCorrecta: false,
             },
           ],
@@ -386,18 +471,32 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué beneficio ofrece conocer el comportamiento del consumidor actual?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Eliminar procesos estratégicos relacionados con análisis del mercado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Sustituir decisiones comerciales mediante acciones improvisadas empresariales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reducir capacidad de adaptación frente cambios del entorno competitivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Favorecer decisiones estratégicas basadas en preferencias y necesidades reales.',
               esCorrecta: true,
             },
           ],
@@ -407,18 +506,207 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué relación existe entre valor y satisfacción del consumidor?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'La satisfacción depende de la percepción del valor recibido.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'El valor elimina completamente expectativas del consumidor moderno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La satisfacción sustituye procesos estratégicos de comercialización empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El valor únicamente depende del precio del producto ofrecido.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué fortalece una adecuada orientación hacia el cliente organizacionalmente?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reducir procesos de fidelización desarrollados por las organizaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Incrementar relaciones duraderas mediante satisfacción de necesidades reales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar actividades de investigación comercial y análisis competitivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir procesos comerciales mediante decisiones exclusivamente operativas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué permite construir una propuesta de valor competitiva empresarial?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Eliminar diferenciación entre productos disponibles en el mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Reducir innovación aplicada al desarrollo de bienes y servicios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Ofrecer beneficios diferenciadores acordes con necesidades del cliente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir completamente estrategias de posicionamiento organizacional actuales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué favorece la investigación dentro de las decisiones de mercadeo?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Sustituir información por experiencias individuales del equipo comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Eliminar análisis relacionados con consumidores y mercados actuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reducir capacidad empresarial para responder cambios del entorno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Obtener información confiable para apoyar decisiones estratégicas organizacionales.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué resultado genera aplicar principios estratégicos de mercadeo correctamente?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Mayor competitividad mediante satisfacción eficiente del mercado objetivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Eliminación permanente de procesos comerciales organizacionales actuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustitución de estrategias empresariales por decisiones intuitivas permanentes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reducción de oportunidades para fortalecer relaciones con consumidores.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué objetivo persigue el mercadeo en organizaciones contemporáneas?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Eliminar procesos estratégicos relacionados con consumidores y mercados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Crear valor sostenible para clientes y organizaciones simultáneamente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir investigación comercial mediante decisiones exclusivamente financieras actuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reducir interacción entre empresas y públicos de interés estratégicos.',
               esCorrecta: false,
             },
           ],
@@ -429,78 +717,6 @@ export default {
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
     },
   }),
 }
