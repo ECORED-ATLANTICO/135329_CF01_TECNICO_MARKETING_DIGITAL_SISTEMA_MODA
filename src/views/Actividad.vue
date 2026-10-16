@@ -124,7 +124,7 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué aspecto fortaleció la evolución del marketing contemporáneo?',
+            '¿Qué aspecto fortaleció la evolución del <em>marketing</em> contemporáneo?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -183,7 +183,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Sustituir completamente la gestión del marketing estratégico.',
+                'Sustituir completamente la gestión del <em>marketing</em> estratégico.',
               esCorrecta: false,
             },
           ],
@@ -217,7 +217,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Un mechanism exclusivo para controlar precios del mercado.',
+                'Un mecanismo exclusivo para controlar precios del mercado.',
               esCorrecta: false,
             },
           ],
