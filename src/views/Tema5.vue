@@ -33,7 +33,7 @@
           
       .col-lg-6
         h5.mb-4 ¿Cómo estructurar un plan de mercadeo?
-        p.mb-0 Antes de empezar, es importante identificar que el término plan tiene relación con el verbo planear, que significa, en nuestra lengua, trazar una ruta para llegar a un objetivo; y cuando se le suma la palabra mercadeo, ¿Qué se obtiene como resultado?
+        p.mb-0 Antes de empezar, es importante identificar que el término plan tiene relación con el verbo planear, que significa, en nuestra lengua, trazar una ruta para llegar a un objetivo; y cuando se le suma la palabra mercadeo, ¿qué se obtiene como resultado?
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .d-none.d-xl-block.col-lg-3
@@ -87,7 +87,7 @@
             p #[strong Unidad de negocio]
             p.mb-3 Se definen una serie de actividades, sobre las cuales se deben planear estrategias para cada una.
             p #[strong Funcional]
-            p Da cuenta de las actividades funcionales de la empresa como son producción, las finanzas y el mercadeo. 
+            p Da cuenta de las actividades funcionales de la empresa como son la producción, las finanzas y el mercadeo. 
 
           .tarjeta.p-4.h-100.bg-terciario-t20(titulo="Ejecución")
             h4 Ejecución
@@ -109,7 +109,7 @@
 
           .tarjeta.p-4.h-100.bg-terciario-t20(titulo="Definición y asignación de presupuesto")
             h4 Definición y asignación de presupuesto
-            p Se cuantificarán el coste de las acciones y de los recursos necesarios para llevarlas a cabo. Tener en cuenta el producto, su distribución, su promoción, el precio.
+            p Se cuantificará el costo de las acciones y de los recursos necesarios para llevarlas a cabo. Tener en cuenta el producto, su distribución, su promoción, el precio.
 
           .tarjeta.p-4.h-100.bg-terciario-t20(titulo="Evaluación de resultados o control")
             h4 Evaluación de resultados o control

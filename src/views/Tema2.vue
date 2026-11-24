@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.bg-terciario-t20.rounded-3
       .col-lg-9.p-3.p-xl-0
-        p.mb-4.mb-lg-0 Hay diversos tipos de mercadeo, que se direccionan y se mezclan según la intención de la estrategia de las organizaciones. A continuación, se detallan los mas conocidos. #[strong ¿Cuáles son? ¿Qué características tienen? ¿Cuál de todos elegir para la vida laboral?] Las siguientes descripciones servirán como referencia para identificar y analizar las características de cada tipo de mercadeo.
+        p.mb-4.mb-lg-0 Hay diversos tipos de mercadeo, que se direccionan y se mezclan según la intención de la estrategia de las organizaciones. A continuación, se detallan los más conocidos. #[strong ¿Cuáles son? ¿Qué características tienen? ¿Cuál de todos elegir para la vida laboral?] Las siguientes descripciones servirán como referencia para identificar y analizar las características de cada tipo de mercadeo.
       .col-8.col-sm-6.col-lg-2
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema2/1.png", alt="Imagen decorativa" data-aos="fade-left")
@@ -34,7 +34,7 @@
                 img.factores-slider__icon(src='@/assets/curso/tema2/4.svg' alt='Ilustacion de acompañamiento')
             .factores-slider__title-wrapper  
               h4.factores-slider__title.mb-4 #[em Online]
-            p.mb-4.mb-5.text-center Basado en las acciones y #[strong contenidos a través del internet].
+            p.mb-4.mb-5.text-center Basado en las acciones y #[strong contenidos a través de internet].
           .tarjeta.tarjeta--blanca.px-4.pt-5.factores-slider__tarjeta
             .row.justify-content-center.mb-3
               .col-7

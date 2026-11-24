@@ -36,7 +36,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-primario-p20")
           .row(titulo="Elementos relacionados con el posicionamiento de la marca").justify-content-center.align-items-center
             .col-12
-              p.mb-0 Posicionar es generar una imagen de la marca, producto, o servicio en las mentes de los consumidores. Se construye desde la percepción que tiene el consumidor individualmente con respecto a la competencia. Debe estar basado en elementos tales como diferenciación, beneficios relevantes, inversiones rentables, comunicación clara y procesos de perfeccionamiento, con los que se incrementa cada vez más el valor añadido, generando ventajas competitivas.
+              p.mb-0 Posicionar es generar una imagen de la marca, producto o servicio en las mentes de los consumidores. Se construye desde la percepción que tiene el consumidor individualmente con respecto a la competencia. Debe estar basado en elementos tales como diferenciación, beneficios relevantes, inversiones rentables, comunicación clara y procesos de perfeccionamiento, con los que se incrementa cada vez más el valor añadido, generando ventajas competitivas.
           .row(titulo="Elementos de las ventas y la participación en el mercado").justify-content-center.align-items-center
             .col-12
               p.mb-0 Consisten en el porcentaje de ventas y comercialización de un producto o servicio, y son el resultado de la estrategia de mercadeo, donde se identifican precios de comercialización, estrategias de publicidad, distribución, descuentos, identificando zonas geográficas fuertes y débiles, en comparación con los competidores.

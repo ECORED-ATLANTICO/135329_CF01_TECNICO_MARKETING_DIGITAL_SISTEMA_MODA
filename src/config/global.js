@@ -154,33 +154,33 @@ export default {
     {
       termino: 'AMA (American Marketing Association)',
       significado:
-        'organización de origen estadounidense que agrupa a los profesionales y educadores del <em>marketing</em> (Olamendi, G, s.f.).',
+        'organización de origen estadounidense que agrupa a los profesionales y educadores del <em>marketing</em> (Olamendi, 2021).',
     },
     {
       termino: 'Negocio',
       significado:
-        'un negocio debe definirse de acuerdo con tres dimensiones: los grupos de clientes a los que se sirve, las necesidades de los clientes que se satisfacen y la tecnología que permite producir los bienes o servicios ofrecidos (Olamendi, G, s.f.).',
+        'un negocio debe definirse de acuerdo con tres dimensiones: los grupos de clientes a los que se sirve, las necesidades de los clientes que se satisfacen y la tecnología que permite producir los bienes o servicios ofrecidos (Olamendi, 2021).',
     },
     {
       termino: 'Planificación',
       significado:
-        'es el proceso de reflexión, análisis y decisión, cuyo fin básico es la aproximación de la empresa hacia el futuro deseado, en un entorno incierto y habitualmente hostil (Olamendi, G, s.f.).',
+        'es el proceso de reflexión, análisis y decisión, cuyo fin básico es la aproximación de la empresa hacia el futuro deseado, en un entorno incierto y habitualmente hostil (Olamendi, 2021).',
     },
     {
       termino: 'Plan de acción',
       significado:
-        'es un conjunto de tareas organizadas que deben ser ejecutadas con los recursos disponibles y potenciales, para la consecución de los objetivos fijados (Olamendi, G, s.f.).',
+        'es un conjunto de tareas organizadas que deben ser ejecutadas con los recursos disponibles y potenciales, para la consecución de los objetivos fijados (Olamendi, 2021).',
     },
     {
       termino: 'Valor agregado',
       significado:
-        'Valor que el fabricante agrega a los materiales que prepara como productos para el consumo del mercado (Olamendi, G, s.f.).',
+        'Valor que el fabricante agrega a los materiales que prepara como productos para el consumo del mercado (Olamendi, 2021).',
     },
   ],
   referencias: [
     {
       referencia:
-        'American Marketing Association. (2020, 3 de diciembre). Definitions of marketing.',
+        'American Marketing Association. (2017). Definitions of marketing.',
       link:
         'https://www.ama.org/the-definition-of-marketing-what-is-marketing/',
     },
@@ -319,7 +319,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Maria Camila Álvarez',
+          nombre: 'María Camila Álvarez',
           cargo: 'Contratista diseño curricular',
           centro:
             'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
@@ -327,7 +327,7 @@ export default {
         {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Revisor metodológico y pedagógico',
-          centro: 'Centro de Diseño Y Metrología - Regional Distrito Capital',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Uriel Darío González Montoya',

@@ -13,14 +13,14 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
         div.banner-text
-          p.mb-0 El #[em marketing] mezclado es uno de los elementos clásicos del #[em marketing], el cual engloba los cuatros componentes básicos: #[strong precio, producto, comunicación y distribución]. Estas variables son conocidas como las 4P por su acepción anglosajona (#[em product, price, place y promotion]). 
+          p.mb-0 El #[em marketing] mezclado es uno de los elementos clásicos del #[em marketing], el cual engloba los cuatro componentes básicos: #[strong precio, producto, comunicación y distribución]. Estas variables son conocidas como las 4P por su acepción anglosajona (#[em product, price, place y promotion]). 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-sm-6.col-lg-4
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Variables conocidas como las 4P
-        img.mb-2(data-aos="fade-down-right", src="@/assets/curso/tema4/2.png", alt="En la figura se describen las variables conocidas como las 4P, donde se detalla: producto, precio, distribución y comunicación.")
+        img.mb-2(data-aos="fade-down-right", src="@/assets/curso/tema4/2.svg", alt="En la figura se describen las variables conocidas como las 4P, donde se detalla: producto, precio, distribución y comunicación.")
           
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-primario-p20")
@@ -48,7 +48,7 @@
       .col-lg-8
         .p-4.bg-amarillo-claro.rounded-3.mb-3
           p.mb-0 El avance más significativo, sin duda, fue el paso del #[em marketing] al mundo digital; sin embargo, a pesar de que han sido significativas en las estrategias de #[em marketing] por muchos años, las 4P han evolucionado con las necesidades del mercado y han sido sustituidas por las 4C.
-        p.mb-0 Con las 4C, se distinguen cuatro importantes aspectos a tener en cuenta para entender y desplegar una estrategia. Ellos son: consumidor, costo, conveniencia y comunicación. Este modelo fue propuesto por Robert F. Lauterborn, en 1990, quien vio la necesidad de actualizar, al entorno digital, el modelo del mercadeo tradicional de 4P (producto, precio, plaza y promoción), sin perder su esencia (Shum Xie, 2019). Observe a continuación sus cualidades en el recurso educativo.
+        p.mb-0 Con las 4C, se distinguen cuatro importantes aspectos a tener en cuenta para entender y desplegar una estrategia. Ellos son: consumidor, costo, conveniencia y comunicación. Este modelo fue propuesto por Robert F. Lauterborn, en 1990, quien vio la necesidad de actualizar, al entorno digital, el modelo del mercadeo tradicional de 4P (producto, precio, plaza y promoción), sin perder su esencia (Xie, Y. M. S., 2021). Observe a continuación sus cualidades en el recurso educativo.
 
     TabsB.color-acento-contenido
       .py-4.py-md-5.px-3(titulo="Consumidor" :icono="require('@/assets/curso/tema4/4.svg')")
