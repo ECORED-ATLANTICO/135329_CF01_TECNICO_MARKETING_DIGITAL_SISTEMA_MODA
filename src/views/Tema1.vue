@@ -41,7 +41,7 @@
       )
       .bloque-texto-g__texto.p-4
         h5.mb-0.d-block Evolución del concepto de mercadeo
-        p.mb-0.d-block Este somero recorrido por el concepto de mercadeo, que se puede apreciar en el video, ayudará a entender su evolución desde un contexto histórico, entendiendo que existen una serie de acontecimientos, como la Revolución Industrial, algunas guerras mundiales y las situaciones económicas vividas durante largos años, que han tenido protagonismo en el surgimiento del concepto y su evolución.
+        p.mb-0.d-block Este somero recorrido por el concepto de mercadeo, que se presenta en el video, ayudará a entender su evolución desde un contexto histórico, entendiendo que existen una serie de acontecimientos, como la Revolución Industrial, algunas guerras mundiales y las situaciones económicas vividas durante largos años, que han tenido protagonismo en el surgimiento del concepto y su evolución.
 
     figure.mb-5
       .video.mb-2

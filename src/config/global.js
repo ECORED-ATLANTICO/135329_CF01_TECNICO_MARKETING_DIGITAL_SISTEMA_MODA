@@ -180,116 +180,112 @@ export default {
   referencias: [
     {
       referencia:
-        'American Marketing Association. (2017). Definitions of marketing.',
+        'American Marketing Association. (2017). <em>Definitions of marketing</em>. Recuperado de:',
       link:
         'https://www.ama.org/the-definition-of-marketing-what-is-marketing/',
     },
     {
       referencia:
-        'Baena, V., y Moreno, F. (2010). Instrumentos de marketing: Decisiones sobre producto, precio, distribución, comunicación y marketing directo. Editorial UOC.',
-      link: '',
+        'Baena, V., y Moreno, F. (2010). Instrumentos de <em>marketing</em>: Decisiones sobre producto, precio, distribución, comunicación y <em>marketing</em> directo. Editorial UOC.',
     },
     {
       referencia:
-        'Congreso de Colombia. (1999, 18 de agosto). Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones. Diario Oficial No. 43.673.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1662013',
+        'Congreso de Colombia. (1999, 18 de agosto). Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones. Diario Oficial No. 43.673. Recuperado de:',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4276',
     },
     {
       referencia:
-        'Congreso de Colombia. (2011, 12 de octubre). Ley 1480 de 2011. Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones. Diario Oficial.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1681955',
+        'Congreso de Colombia. (2011, 12 de octubre). Ley 1480 de 2011. Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones. Diario Oficial No. 48.220. Recuperado de:',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306',
     },
     {
       referencia:
-        'Congreso de Colombia. (2012, 17 de octubre). Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Diario Oficial.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1684507',
+        'Congreso de Colombia. (2012, 17 de octubre). Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Diario Oficial No. 48.587. Recuperado de:',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981',
     },
     {
       referencia:
-        'Consejo Nacional de Política Económica y Social. (2009, 9 de noviembre). Documento CONPES 3620: Lineamientos de política para el desarrollo e impulso del comercio electrónico en Colombia. Departamento Nacional de Planeación.',
+        'Consejo Nacional de Política Económica y Social. (2009, 9 de noviembre). Documento CONPES 3620: Lineamientos de política para el desarrollo e impulso del comercio electrónico en Colombia. Departamento Nacional de Planeación. Recuperado de:',
       link:
         'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3620.pdf',
     },
     {
       referencia:
-        'Dirección de Impuestos y Aduanas Nacionales. (2023, 1 de noviembre). Resolución 000165 de 2023. Por la cual se desarrolla el sistema de facturación, los proveedores tecnológicos, se adopta la versión 1.9 del anexo técnico de factura electrónica de venta, se expide el anexo técnico 1.0 del documento equivalente electrónico y se dictan otras disposiciones en materia del sistema de facturación.',
+        'Dirección de Impuestos y Aduanas Nacionales. (2023, 1 de noviembre). Resolución 000165 de 2023. Por la cual se desarrolla el sistema de facturación, los proveedores tecnológicos, se adopta la versión 1.9 del anexo técnico de factura electrónica de venta, se expide el anexo técnico 1.0 del documento equivalente electrónico y se dictan otras disposiciones en materia del sistema de facturación. Recuperado de:',
       link:
         'https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0165_2023.htm',
     },
     {
       referencia:
-        'Iniestra, L. (2015). Implementación de mercadotecnia digital a una empresa de chocolate gourmet [Tesis de maestría, Instituto Politécnico Nacional]. Repositorio Nacional.',
-      link: '',
+        'Iniestra, L. (2015). Implementación de mercadotecnia digital a una empresa de chocolate <em>gourmet</em> [Tesis de maestría, Instituto Politécnico Nacional]. Repositorio Nacional.',
     },
     {
       referencia:
-        'Kotler, P., y Armstrong, G. (2013). Fundamentos de marketing (11.ª ed.). Pearson Educación.',
-      link: '',
+        'Kotler, P., y Armstrong, G. (2013). Fundamentos de <em>marketing</em> (11.ª ed.). Pearson Educación.',
     },
     {
       referencia:
-        'Kotler, P., y Keller, K. L. (2013). Dirección de marketing. Pearson Educación.',
-      link: '',
+        'Kotler, P., y Keller, K. L. (2013). Dirección de <em>marketing</em>. Pearson Educación.',
     },
     {
       referencia:
-        'Lamb, C. W., Hair, J. F., y McDaniel, C. (2011). Marketing. Cengage Learning.',
-      link: '',
+        'Lamb, C. W., Hair, J. F., y McDaniel, C. (2011). <em>Marketing</em>. Cengage Learning.',
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2015, 26 de mayo). Decreto 1074 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. Diario Oficial.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30019935',
+        'Ministerio de Comercio, Industria y Turismo. (2015, 26 de mayo). Decreto 1074 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. Diario Oficial No. 49.523. Recuperado de:',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76608',
     },
     {
       referencia:
-        'Olamendi, G. (2021). Diccionario de marketing. EIG Business School.',
-      link: '',
+        'Olamendi, G. (2021). Diccionario de <em>marketing</em>. EIG Business School.',
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (2012, 22 de noviembre). Decreto 2364 de 2012. Por medio del cual se reglamenta el artículo 7 de la Ley 527 de 1999 sobre la firma electrónica y se dictan otras disposiciones. Diario Oficial.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1442265',
+        'Presidencia de la República de Colombia. (2012, 22 de noviembre). Decreto 2364 de 2012. Por medio del cual se reglamenta el artículo 7 de la Ley 527 de 1999 sobre la firma electrónica y se dictan otras disposiciones. Diario Oficial No. 48.622. Recuperado de:',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50583',
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (2014, 19 de febrero). Decreto 333 de 2014. Por el cual se reglamenta parcialmente la Ley 527 de 1999 en lo relacionado con las entidades de certificación, los certificados y las firmas digitales. Diario Oficial.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1848847',
+        'Presidencia de la República de Colombia. (2014, 19 de febrero). Decreto 333 de 2014. Por el cual se reglamenta el artículo 160 del Decreto-ley 19 de 2012. Diario Oficial No. 49.069. Recuperado de:',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56767',
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (2020, 5 de marzo). Decreto 358 de 2020. Por el cual se reglamentan disposiciones en materia tributaria relacionadas con los sistemas de facturación. Diario Oficial.',
-      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30038903',
+        'Presidencia de la República de Colombia. (2020, 5 de marzo). Decreto 358 de 2020. Por el cual se reglamentan disposiciones en materia tributaria relacionadas con los sistemas de facturación. Diario Oficial No. 51.247. Recuperado de:',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=110414',
     },
     {
       referencia:
         'Rincón, E. (2017). Derecho del comercio electrónico y de internet. Legis.',
-      link: '',
     },
     {
       referencia:
-        'Rosenstiehl, J. L. (2016). Tópicos generales de marketing estratégico. Notas de Clase No. 39.',
-      link: '',
+        'Rosenstiehl, J. L. (2016). Tópicos generales de <em>marketing</em> estratégico. Notas de Clase No. 39.',
     },
     {
       referencia:
-        'Sainz, J. M. (2015). El plan de marketing en la práctica. ESIC Editorial.',
-      link: '',
+        'Sainz, J. M. (2015). El plan de <em>marketing</em> en la práctica. ESIC Editorial.',
     },
     {
       referencia:
-        'Silva, R. (2009). Beneficios del comercio electrónico. Perspectivas, (24), 151–164.',
+        'Silva, R. (2009). Beneficios del comercio electrónico. Perspectivas, (24), 151–164. Recuperado de:',
       link: 'https://www.redalyc.org/articulo.oa?id=425942160008',
     },
     {
       referencia:
-        'Stanton, W. J., Etzel, M. J., y Walker, B. J. (2007). Fundamentos de marketing (13.ª ed.). McGraw-Hill Interamericana.',
-      link: '',
+        'Stanton, W. J., Etzel, M. J., y Walker, B. J. (2007). Fundamentos de <em>marketing</em> (13.ª ed.). McGraw-Hill Interamericana.',
     },
     {
       referencia:
-        'Xie, Y. M. S. (2021). Marketing digital: Navegando en aguas digitales, sumérgete conmigo. Ediciones de la U.',
-      link: '',
+        'Xie, Y. M. S. (2021). <em>Marketing</em> digital: Navegando en aguas digitales, sumérgete conmigo. Ediciones de la U.',
     },
   ],
   creditos: [
